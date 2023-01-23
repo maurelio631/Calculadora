@@ -6,6 +6,12 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
+            Soma();
+
+        }
+
+        static void Soma()
+        {
             Console.Clear();
             Console.WriteLine("Digite o primeiro valor:");
             int primeiroValor = Int32.Parse(Console.ReadLine());
@@ -17,10 +23,9 @@ namespace Calculadora
 
             Console.WriteLine("");
 
-            Console.WriteLine("O resultado da soma é: " + soma);
+            // Console.WriteLine("O resultado da soma é: " + soma);
             Console.WriteLine($"O resultado da soma é: {soma}");
-            Console.WriteLine($"O resultado da soma é: {primeiroValor + segundoValor}");
-
+            // Console.WriteLine($"O resultado da soma é: {primeiroValor + segundoValor}");
         }
     }
 }
