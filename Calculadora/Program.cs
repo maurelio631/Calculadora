@@ -63,7 +63,7 @@ namespace Calculadora
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da subtração é: {multiplicacao}");
+            Console.WriteLine($"O resultado da multiplicação é: {multiplicacao}");
 
 
         }
@@ -77,11 +77,11 @@ namespace Calculadora
             Console.WriteLine("Digite o segundo valor:");
             int segundoValor = Int32.Parse(Console.ReadLine());
 
-            int divisao = primeiroValor - segundoValor;
+            int divisao = primeiroValor / segundoValor;
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da subtração é: {divisao}");
+            Console.WriteLine($"O resultado da divisão é: {divisao}");
 
 
         }
