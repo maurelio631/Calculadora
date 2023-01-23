@@ -106,6 +106,8 @@ namespace Calculadora
             Console.WriteLine("5 - Cancelar");
 
             Console.WriteLine("");
+            Console.WriteLine("------------------");
+            Console.WriteLine("");
 
             Console.WriteLine("Digite uma opção...");
 
